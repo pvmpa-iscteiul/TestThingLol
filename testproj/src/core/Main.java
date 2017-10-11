@@ -8,6 +8,7 @@ public class Main {
 	public static void main(String[] args) {
 		ArrayList<TestClass> subjects = new ArrayList<TestClass>();
 		Scanner keyboard_in = new Scanner(System.in);
+		System.out.println("I AM COMMITTED!!!!!!! AHHHH");
 		while (true){
 			System.out.print("Give me a command blyat:\n 1. Create a new subject\n 2. List all subjects\n 3. Remove a subject\n 4. Import from file\n 5. Export to file\n 6. Exit\n Command: ");
 			int input = keyboard_in.nextInt();
